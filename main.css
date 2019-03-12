@@ -1,0 +1,124 @@
+/**/
+* {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p,a,small {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+h5 {
+    font-size: 110%;
+}
+
+
+
+/**/
+
+.bg-darkgray {
+    background-color: #333;
+}
+
+/**/
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper-header-content {
+    min-height: 100vh;
+}
+
+/**/
+header, header a {
+    color: white;
+}
+
+.header-title {
+    padding: 3.5em 0;
+}
+
+.header-title h1 {
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+.header-img {
+    position: absolute;
+    height: 64px;
+    right: 2em;
+    top: 3.5em;
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+
+/**/
+.navbar-top {
+}
+
+.navbar-top ul {
+    display:flex;
+}
+
+.navbar-top li {
+    flex: 1;
+}
+
+.navbar-top a {
+    text-align: center;
+    display: block;
+    padding: 1em;
+}
+
+.navbar-top a:hover, .navbar-top a:active {
+    background-color: #222;
+}
+
+/**/
+.content {
+    padding-top: 2em;
+}
+
+/**/
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.project-grid li {
+    border: thin solid black;   
+    padding: 0.5em; 
+}
+
+/**/
+footer {
+    padding: 2em;
+    background-color: red;
+    display: flex;
+}
+
+footer > ul {
+    flex: 1;
+    padding: 0 4em;
+}
