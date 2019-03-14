@@ -96,17 +96,23 @@ header, header a {
 
 /**/
 .content {
-    padding-top: 2em;
+    padding: 1em 0;
+}
+
+.content-box {
+    padding: 3em 0;
 }
 
 /**/
-.project-grid {
+
+/**/
+.project-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
 }
 
-.project-grid li {
+.project-list a {
     border: thin solid black;   
     padding: 0.5em; 
 }
